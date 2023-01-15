@@ -132,7 +132,15 @@
             alt=""
           />
           <p>hi</p>
-        </li>     
+        </li>  
+	<li class="message right">
+          <img
+            class="avatar"
+            src="https://cdkmdkd.s3.ap-south-1.amazonaws.com/chaitu.jpg"
+            alt=""
+          />
+          <p>Hi, geetha</p>
+        </li>      
 
       </ul>
       <input type="text" class="text_input" placeholder="Message..." />
