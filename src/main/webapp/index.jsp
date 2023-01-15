@@ -125,6 +125,14 @@
           />
           <p>Hi, geetha</p>
         </li>
+	 <li class="message left">
+          <img
+            class="avatar"
+            src="https://cdkmdkd.s3.ap-south-1.amazonaws.com/geetha.jpg"
+            alt=""
+          />
+          <p>hi</p>
+        </li>     
 
       </ul>
       <input type="text" class="text_input" placeholder="Message..." />
