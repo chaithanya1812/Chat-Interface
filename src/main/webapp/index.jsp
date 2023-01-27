@@ -107,7 +107,7 @@
             alt=""
           />
           <p>oky, if you again 
-             text mewon't give reply</p>
+             text me I won't give reply</p>
         </li>
         <li class="message right">
           <img
@@ -123,25 +123,8 @@
             src="https://cdkmdkd.s3.ap-south-1.amazonaws.com/chaitu.jpg"
             alt=""
           />
-          <p>Hi, geetha</p>
-        </li>
-	 <li class="message left">
-          <img
-            class="avatar"
-            src="https://cdkmdkd.s3.ap-south-1.amazonaws.com/geetha.jpg"
-            alt=""
-          />
-          <p>hi</p>
-        </li>  
-	<li class="message right">
-          <img
-            class="avatar"
-            src="https://cdkmdkd.s3.ap-south-1.amazonaws.com/chaitu.jpg"
-            alt=""
-          />
-          <p>Hi, geetha</p>
+          <p>Hi geetha</p>
         </li>      
-
-      </ul>
+	</ul>
       <input type="text" class="text_input" placeholder="Message..." />
     </div>	  
