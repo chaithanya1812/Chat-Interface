@@ -1,9 +1,0 @@
-node{
-//def chaitu = tool name: "MAVEN"    
-    
-echo "The node name is: ${env.NODE_NAME}"   
-//properties([pipelineTriggers([githubPush(), pollSCM('*/2 * * * *')])])    
-stage('CHECKOUT'){
-    git branch: 'dev-2', url: 'https://github.com/chaithanya1812/Chat-Interface.git'    
-}
-}
