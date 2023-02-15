@@ -19,7 +19,7 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
     <sonar.login>c2118375a8ea408619ac337267dc0a908a130178</sonar.login>
-    <sonar.organization>chat-Interface</sonar.organization>
+    <sonar.organization>javaproject1</sonar.organization>
   </properties>
    <distributionManagement>
 
