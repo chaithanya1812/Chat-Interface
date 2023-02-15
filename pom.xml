@@ -14,6 +14,9 @@
   <url>http://www.example.com</url>
 
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
     <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
     <sonar.login>72542da4b9463ebb41be6f538a042f4819693232</sonar.login>
     <sonar.organization>javaproject1</sonar.organization>
