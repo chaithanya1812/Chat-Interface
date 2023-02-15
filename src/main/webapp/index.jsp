@@ -7,7 +7,7 @@
     <title>Chat Interface</title>
   </head>
   <body>
- <h2>love:-)</h2>
+ <h2>Break-Up</h2>
     <div class="chat-container">
       <ul class="chat">
         <li class="message right">
