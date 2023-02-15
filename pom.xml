@@ -17,20 +17,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.host.url>http://3.109.183.217:9080/</sonar.host.url>
-    <sonar.login>9e56d204de740733c855305a7d78320bf2818f0b</sonar.login>
+    <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
+    <sonar.login>c2118375a8ea408619ac337267dc0a908a130178</sonar.login>
+    <sonar.organization>chat-Interface</sonar.organization>
   </properties>
    <distributionManagement>
 
         <repository>
                 <id>chaitu</id>
-                <name>samplerelease</name>
-                <url>http://65.0.89.216:8081/repository/cloudhostingRelease/</url>
+                <name>ChatInterface-Release</name>
+                <url>http://65.0.199.122:8081/repository/ChatInterface-Release/</url>
         </repository>
         <snapshotRepository>
                 <id>chaitu</id>
-                <name>samplesnapshot</name>
-                <url>http://65.0.89.216:8081/repository/cloudhosting/</url>
+                <name>ChatInterface-Snapshot</name>
+                <url>http://65.0.199.122:8081/repository/ChatInterface-Snapshot/</url>
         </snapshotRepository>
 
   </distributionManagement>
