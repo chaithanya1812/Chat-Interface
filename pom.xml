@@ -20,6 +20,20 @@
     <sonar.host.url>http://3.109.183.217:9080/</sonar.host.url>
     <sonar.login>9e56d204de740733c855305a7d78320bf2818f0b</sonar.login>
   </properties>
+   <distributionManagement>
+
+        <repository>
+                <id>chaitu</id>
+                <name>samplerelease</name>
+                <url>http://65.0.89.216:8081/repository/cloudhostingRelease/</url>
+        </repository>
+        <snapshotRepository>
+                <id>chaitu</id>
+                <name>samplesnapshot</name>
+                <url>http://65.0.89.216:8081/repository/cloudhosting/</url>
+        </snapshotRepository>
+
+  </distributionManagement>
 
   <dependencies>
     <dependency>
