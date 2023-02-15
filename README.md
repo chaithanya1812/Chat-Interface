@@ -11,3 +11,13 @@
 - Docker-Hub,Dockerfile
 - Docker-swarm Cluster(1-2)
 - Nginx-server
+## Docke-swarm cluster
+
+sh "docker service create --name chatin -p 8081:8080 --replicas 4 chaitu1812/chat-interface:latest"
+
+```bash
+   sonar -->
+  docker-manager --> 13.232.126.234(public-ip)
+  node-1--> 65.1.147.187(public-ip)
+  node-2--> 65.2.161.155(public-ip)
+```
