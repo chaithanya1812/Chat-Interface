@@ -1,9 +1,9 @@
 ## Project Title
 ## Chat-Interface Java Application Deployed on Docker-swarm cluster and placing Nginx as laodbalancer
-## ---------------------------------------------------------------------------------------------------
+## --------------------------------------------------------------------------
 ## Image
 ![project-7](https://user-images.githubusercontent.com/111736742/219126197-9d8d9c4d-0d54-4870-9523-6dc9caec9a52.jpg).
-## -------------------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------
 ## Requirements
 - Jenkins
 - SonarQube
@@ -52,6 +52,35 @@
 ## output
 ![dockerswarmlatest](https://user-images.githubusercontent.com/111736742/219240827-ee83f484-c14f-4d00-9d3e-7074cd2935e3.png)
 ## ---------------------------------------------------------------------------------------------------
+## Install nginx
+To changes run the following command
+```bash
+  amazon-linux-extras install nginx1
+  cd /etc/
+  chmod 777 -R nginx
+```
+## Demo  
+```bash
+  vi nginx.conf
+  -------------------------------------
+events {}
+http {
+upstream chaitu{
+server  Ip-address;                      
+server  Ip-address;              
+server  Ip-address;              
+}
+
+server {
+        listen 9000; ---- you can change port number
+      location / {
+      proxy_pass http://chaitu;
+      }
+  }
+
+}
+ }
+ ```
 ## finally with Nginx-server
 ![docker-swarmnginxserver](https://user-images.githubusercontent.com/111736742/219241507-db6fd744-9e72-40f8-a5e9-f83fb8d9deeb.png)
 ## Output
