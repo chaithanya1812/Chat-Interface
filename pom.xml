@@ -17,10 +17,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.host.url>http://65.1.112.127:9000/</sonar.host.url>
-    <sonar.login>ceeec7ecf1c269671194137f4341f26fc2227499</sonar.login>
+    <!-- <sonar.host.url>http://65.1.112.127:9000/</sonar.host.url>
+    <sonar.login>ceeec7ecf1c269671194137f4341f26fc2227499</sonar.login> -->
   </properties>
-   <distributionManagement>
+  <!-- <distributionManagement>
 
         <repository>
                 <id>chaitu</id>
@@ -33,7 +33,7 @@
                 <url>http://65.0.199.122:8081/repository/ChatInterface-Snapshot/</url>
         </snapshotRepository>
 
-  </distributionManagement>
+  </distributionManagement> -->
 
   <dependencies>
     <dependency>
