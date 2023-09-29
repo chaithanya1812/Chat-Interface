@@ -1,4 +1,4 @@
-## Project Tit
+## Project Title
 ## Chat-Interface Java Application Deployed on Docker-swarm cluster and placing Nginx as laodbalancer
 ## --------------------------------------------------------------------------
 ## Image
